@@ -76,6 +76,7 @@ dependencies {
     api project(path: ':chat-sdk-firebase-file-storage')
 
     api project(path: ':chat-sdk-firebase-ui')
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
 }
 
 apply plugin: 'com.google.gms.google-services'
